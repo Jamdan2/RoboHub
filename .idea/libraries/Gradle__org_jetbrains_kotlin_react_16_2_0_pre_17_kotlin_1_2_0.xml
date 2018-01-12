@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.jetbrains:kotlin-react:16.2.0-pre.17-kotlin-1.2.0" type="kotlin.js">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains/kotlin-react/16.2.0-pre.17-kotlin-1.2.0/282c7f9c19e07e7b5aeafbadff8057c638a31611/kotlin-react-16.2.0-pre.17-kotlin-1.2.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains/kotlin-react/16.2.0-pre.17-kotlin-1.2.0/174c8bb4899fd18406727690e5d64791c4945c8c/kotlin-react-16.2.0-pre.17-kotlin-1.2.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

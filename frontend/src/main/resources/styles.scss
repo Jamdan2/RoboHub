@@ -1,0 +1,24 @@
+$font_stack: sans-serif;
+
+$darker_grey: #666666;
+$lighter_grey: #707070;
+
+body {
+  margin: 0;
+
+  text {
+    font-family: $font_stack;
+    text-align: center;
+    margin: 5mm;
+  }
+
+  h1 {
+    @extend text;
+    color: $darker_grey;
+  }
+
+  p {
+    @extend text;
+    color: $lighter_grey;
+  }
+}
