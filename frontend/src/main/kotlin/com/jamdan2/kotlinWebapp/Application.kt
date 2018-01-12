@@ -1,17 +1,12 @@
 package com.jamdan2.kotlinWebapp
 
 import react.*
-import react.dom.*
+import react.router.dom.*
 
 class Application : RComponent<RProps, RState>() {
     override fun RBuilder.render() {
-        div {
-            h1 {
-                +"Hello, world!"
-            }
-            p {
-                +"This is a webapp made using Kotlin."
-            }
+        switch {
+
         }
     }
 }
