@@ -9,9 +9,9 @@ fun main(args: Array<String>) {
     require("styles.css")
     window.onload = {
         render(document.getElementById("root")!!) {
-            hashRouter {
+           browserRouter {
                 application()
-            }
+           }
         }
         println("Hello, world!")
     }

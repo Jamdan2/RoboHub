@@ -3,7 +3,7 @@ package react.router.dom
 import react.*
 import kotlin.reflect.KClass
 
-fun RBuilder.hashRouter(handler: RHandler<RProps>) = child(HashRouterComponent::class, handler)
+fun RBuilder.browserRouter(handler: RHandler<RProps>) = child(BrowserRouterComponent::class, handler)
 
 fun RBuilder.switch(handler: RHandler<RProps>) = child(SwitchComponent::class, handler)
 
