@@ -1,4 +1,4 @@
-package com.jamdan2.kotlinWebapp
+package com.jamdan2.robohub
 
 import kotlin.browser.*
 import kotlinext.js.*
