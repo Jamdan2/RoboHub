@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e034a483-0a56-4f88-a00f-4f204c6af9cf" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/main/kotlin/com/jamdan2/kotlinWebapp/main.kt" afterPath="$PROJECT_DIR$/frontend/src/main/kotlin/com/jamdan2/kotlinWebapp/main.kt" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/main/kotlin/react/router/dom/dsl.kt" afterPath="$PROJECT_DIR$/frontend/src/main/kotlin/react/router/dom/dsl.kt" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/main/kotlin/react/router/dom/wrapper.kt" afterPath="$PROJECT_DIR$/frontend/src/main/kotlin/react/router/dom/wrapper.kt" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/main/kotlin/com/jamdan2/kotlinWebapp/Application.kt" afterPath="$PROJECT_DIR$/frontend/src/main/kotlin/com/jamdan2/kotlinWebapp/Application.kt" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -88,8 +86,8 @@
       <file leaf-file-name="Application.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/frontend/src/main/kotlin/com/jamdan2/kotlinWebapp/Application.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="507">
-              <caret line="13" column="9" lean-forward="true" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+            <state relative-caret-position="390">
+              <caret line="10" column="9" lean-forward="false" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
               <folding>
                 <element signature="e#34#97#0" expanded="true" />
               </folding>
@@ -1321,11 +1319,11 @@
         <option value="$PROJECT_DIR$/versions.gradle" />
         <option value="$PROJECT_DIR$/frontend/src/main/kotlin/com/jamdan2/kotlinWebapp/welcome/WelcomePage.kt" />
         <option value="$PROJECT_DIR$/frontend/src/main/resources/colors.scss" />
-        <option value="$PROJECT_DIR$/frontend/src/main/kotlin/com/jamdan2/kotlinWebapp/Application.kt" />
         <option value="$PROJECT_DIR$/frontend/src/main/resources/styles.scss" />
         <option value="$PROJECT_DIR$/frontend/src/main/kotlin/react/router/dom/wrapper.kt" />
         <option value="$PROJECT_DIR$/frontend/src/main/kotlin/react/router/dom/dsl.kt" />
         <option value="$PROJECT_DIR$/frontend/src/main/kotlin/com/jamdan2/kotlinWebapp/main.kt" />
+        <option value="$PROJECT_DIR$/frontend/src/main/kotlin/com/jamdan2/kotlinWebapp/Application.kt" />
       </list>
     </option>
   </component>
@@ -1639,7 +1637,7 @@
       <workItem from="1515717646101" duration="995000" />
       <workItem from="1515718652816" duration="503000" />
       <workItem from="1515719190557" duration="1059000" />
-      <workItem from="1516150079265" duration="1811000" />
+      <workItem from="1516150079265" duration="1899000" />
     </task>
     <task id="LOCAL-00001" summary="Delete unused imports">
       <created>1515287064580</created>
@@ -1669,11 +1667,18 @@
       <option name="project" value="LOCAL" />
       <updated>1516151387975</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Use browserRouter instead of hashRouter">
+      <created>1516151978057</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1516151978057</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41266000" />
+    <option name="totallyTimeSpent" value="41354000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1763,7 +1768,8 @@
     <MESSAGE value="Use scss for styling" />
     <MESSAGE value="Add welcome page" />
     <MESSAGE value="Add styles for input" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add styles for input" />
+    <MESSAGE value="Use browserRouter instead of hashRouter" />
+    <option name="LAST_COMMIT_MESSAGE" value="Use browserRouter instead of hashRouter" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2036,8 +2042,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/src/main/kotlin/com/jamdan2/kotlinWebapp/Application.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="507">
-          <caret line="13" column="9" lean-forward="true" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+        <state relative-caret-position="390">
+          <caret line="10" column="9" lean-forward="false" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
           <folding>
             <element signature="e#34#97#0" expanded="true" />
           </folding>

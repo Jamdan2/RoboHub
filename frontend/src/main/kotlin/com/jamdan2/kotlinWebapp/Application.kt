@@ -9,9 +9,6 @@ class Application : RComponent<RProps, RState>() {
         switch {
 
         }
-        input {
-
-        }
     }
 }
 
