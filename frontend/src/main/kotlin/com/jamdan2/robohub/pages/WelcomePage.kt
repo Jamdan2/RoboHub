@@ -5,6 +5,9 @@ import com.jamdan2.robohub.components.navigation.*
 
 class WelcomePage : RComponent<RProps, RState>() {
     override fun RBuilder.render() {
-        navigationBar()
+        navigationBar {
+            navigationButton("/", "World")
+            navigationButton("/", "Hello")
+        }
     }
 }

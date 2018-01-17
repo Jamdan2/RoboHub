@@ -16,7 +16,7 @@ fun RBuilder.route(path: String, component: KClass<out React.Component<*, *>>, e
             }
         }
 
-fun RBuilder.link(to: String, handler: RHandler<RProps>) = child(LinkComponent::class) {
+fun RBuilder.routeLink(to: String, handler: RHandler<RProps>) = child(LinkComponent::class) {
     attrs {
         this.to = to
     }

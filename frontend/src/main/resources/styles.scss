@@ -65,3 +65,14 @@ input {
   font-size: 4.75mm;
   border-radius: 1px;
 }
+
+button {
+  @extend text;
+  background-color: $lightest_grey;
+  padding: 3mm;
+  border: none;
+}
+
+button:hover {
+  background-color: $lighter_grey;
+}
