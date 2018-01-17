@@ -8,11 +8,10 @@ body {
 
 text {
   font-family: $font_stack;
+  color: $darkest_grey;
 }
-
 p {
   @extend text;
-  color: $darkest_grey;
   font-size: 4.75mm;
 }
 
@@ -56,4 +55,12 @@ p {
   @extend text;
   color: $darkest_grey;
   font-size: 5mm;
+}
+
+input {
+  @extend text;
+  border: 1px solid $darker_grey;
+  height: 7mm;
+  font-size: 4.75mm;
+  border-radius: 1px;
 }
