@@ -1,14 +1,17 @@
-package com.jamdan2.kotlinWebapp
+package com.jamdan2.robohub
 
-import kotlinext.js.*
 import kotlin.browser.*
+import kotlinext.js.*
 import react.dom.*
+import react.router.dom.*
 
 fun main(args: Array<String>) {
     require("styles.css")
     window.onload = {
         render(document.getElementById("root")!!) {
-            application()
+           browserRouter {
+                application()
+           }
         }
         println("Hello, world!")
     }

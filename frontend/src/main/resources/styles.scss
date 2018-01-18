@@ -1,24 +1,78 @@
-$font_stack: sans-serif;
+@import "colors";
+@import "navigation";
 
-$darker_grey: #666666;
-$lighter_grey: #707070;
+$font_stack: Arial, sans-serif;
 
 body {
   margin: 0;
+}
 
-  text {
-    font-family: $font_stack;
-    text-align: center;
-    margin: 5mm;
-  }
+text {
+  font-family: $font_stack;
+  color: $darkest_grey;
+}
+p {
+  @extend text;
+  font-size: 4.75mm;
+}
 
-  h1 {
-    @extend text;
-    color: $darker_grey;
-  }
+h1 {
+  @extend text;
+  color: $darker_grey;
+  font-size: 1cm;
+}
 
-  p {
-    @extend text;
-    color: $lighter_grey;
-  }
+h2 {
+  @extend text;
+  color: $dark_grey;
+  font-size: 8mm;
+}
+
+h3 {
+  @extend text;
+  color: $dark_grey;
+  font-size: 7mm;
+}
+
+h4 {
+  @extend text;
+  color: $dark_grey;
+  font-size: 6.5mm;
+}
+
+h5 {
+  @extend text;
+  color: $dark_grey;
+  font-size: 6mm;
+}
+
+h6 {
+  @extend text;
+  color: $dark_grey;
+  font-size: 5.75mm;
+}
+
+p {
+  @extend text;
+  color: $darkest_grey;
+  font-size: 5mm;
+}
+
+input {
+  @extend text;
+  border: 1px solid $darker_grey;
+  height: 7mm;
+  font-size: 4.75mm;
+  border-radius: 1px;
+}
+
+button {
+  @extend text;
+  background-color: $lightest_grey;
+  padding: 3mm;
+  border: none;
+}
+
+button:hover {
+  background-color: $lighter_grey;
 }

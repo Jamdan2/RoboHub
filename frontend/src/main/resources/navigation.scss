@@ -1,0 +1,19 @@
+@import "colors";
+@import "utils";
+
+.NavigationBar {
+  width: 100%;
+  height: 20mm;
+  background-color: $lightest_grey;
+
+  .navigationElement {
+    width: fit-content;
+    height: 100%;
+    float: right;
+
+    .NavigationButton {
+      margin: 0 3mm;
+      @include vertical-align();
+    }
+  }
+}

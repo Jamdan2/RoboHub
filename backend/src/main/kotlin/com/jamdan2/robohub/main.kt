@@ -1,4 +1,4 @@
-package com.jamdan2.kotlinWebapp
+package com.jamdan2.robohub
 
 import io.ktor.application.*
 import io.ktor.features.*
