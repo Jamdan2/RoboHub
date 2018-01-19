@@ -1,5 +1,6 @@
 @import "colors";
 @import "navigation";
+@import "pageHeaders";
 
 $font_stack: Arial, sans-serif;
 
@@ -9,11 +10,14 @@ body {
 
 text {
   font-family: $font_stack;
+  font-size: 5mm;
   color: $darkest_grey;
+  padding: 0;
+  margin: 0;
 }
+
 p {
   @extend text;
-  font-size: 4.75mm;
 }
 
 h1 {
@@ -50,12 +54,6 @@ h6 {
   @extend text;
   color: $dark_grey;
   font-size: 5.75mm;
-}
-
-p {
-  @extend text;
-  color: $darkest_grey;
-  font-size: 5mm;
 }
 
 input {
