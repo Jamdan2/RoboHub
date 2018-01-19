@@ -7,8 +7,8 @@ import com.jamdan2.robohub.components.navigation.*
 class WelcomePage : RComponent<RProps, RState>() {
     override fun RBuilder.render() {
         navigationBar {
-            navigationButton("/", "World")
-            navigationButton("/", "Hello")
+            navigationButton("/", "Sign Up")
+            navigationButton("/", "Log In")
         }
         welcomePageHeader("RoboHub", "Share your FRC robot with other teams")
     }
