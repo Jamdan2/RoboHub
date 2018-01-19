@@ -1,4 +1,4 @@
-package com.jamdan2.robohub.components
+package com.jamdan2.robohub.components.pageHeaders
 
 import kotlinx.html.*
 import react.*
@@ -9,17 +9,15 @@ class WelcomePageHeader : RComponent<WelcomePageHeaderProps, RState>() {
         div("WelcomePageHeader") {
             div("container") {
                 if (props.text != "") h1 {
-                    attrs.classes = setOf("text")
+                    attrs.classes += "text"
                     +props.text
                 }
                 if (props.subtext != "") h1 {
-                        attrs.classes = setOf("subtext")
+                        attrs.classes += "subtext"
                         +props.subtext
                 }
             }
-            if (props.imgSrc != "") img(props.imgAlt, props.imgSrc) {
-                attrs.classes = setOf("img")
-            }
+            if (props.imgSrc != "") img(props.imgAlt, props.imgSrc) {}
         }
     }
 }
