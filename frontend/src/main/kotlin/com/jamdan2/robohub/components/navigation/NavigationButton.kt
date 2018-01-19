@@ -7,7 +7,7 @@ import react.router.dom.*
 class NavigationButton : RComponent<NavigationButtonProps, RState>() {
     override fun RBuilder.render() {
         div("NavigationButton") {
-            routeLink("fds") {
+            routeLink(props.to) {
                 button {
                     +props.text
                 }

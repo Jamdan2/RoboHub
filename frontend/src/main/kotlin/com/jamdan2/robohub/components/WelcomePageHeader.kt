@@ -1,6 +1,6 @@
 package com.jamdan2.robohub.components
 
-import kotlinx.html.classes
+import kotlinx.html.*
 import react.*
 import react.dom.*
 
