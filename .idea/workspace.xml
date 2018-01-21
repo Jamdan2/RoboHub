@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="e034a483-0a56-4f88-a00f-4f204c6af9cf" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/main/kotlin/com/jamdan2/robohub/components/WelcomePageHeader.kt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/main/kotlin/com/jamdan2/robohub/components/WelcomePageHeader.kt" afterPath="$PROJECT_DIR$/frontend/src/main/kotlin/com/jamdan2/robohub/components/pageHeaders/WelcomePageHeader.kt" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/main/kotlin/com/jamdan2/robohub/pages/WelcomePage.kt" afterPath="$PROJECT_DIR$/frontend/src/main/kotlin/com/jamdan2/robohub/pages/WelcomePage.kt" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/main/kotlin/com/jamdan2/robohub/main.kt" afterPath="$PROJECT_DIR$/frontend/src/main/kotlin/com/jamdan2/robohub/main.kt" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/main/resources/styles.scss" afterPath="$PROJECT_DIR$/frontend/src/main/resources/styles.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -84,46 +83,32 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="750">
-      <file leaf-file-name="WelcomePage.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/src/main/kotlin/com/jamdan2/robohub/pages/WelcomePage.kt">
+    <leaf>
+      <file leaf-file-name="main.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend/src/main/kotlin/com/jamdan2/robohub/main.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="507">
-              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-              <folding>
-                <marker date="1516328878340" expanded="true" signature="42:100" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NavigationBar.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/src/main/kotlin/com/jamdan2/robohub/components/navigation/NavigationBar.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
+            <state relative-caret-position="243">
+              <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WelcomePageHeader.kt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/frontend/src/main/kotlin/com/jamdan2/robohub/components/pageHeaders/WelcomePageHeader.kt">
+      <file leaf-file-name="main.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/frontend/src/main/kotlin/com/jamdan2/robohub/main.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="780">
-              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-              <folding>
-                <element signature="e#52#107#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="585">
+              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NavigationButton.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/src/main/kotlin/com/jamdan2/robohub/components/navigation/NavigationButton.kt">
+      <file leaf-file-name="styles.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/src/main/resources/styles.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="975">
-              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+            <state relative-caret-position="312">
+              <caret line="8" column="6" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -152,7 +137,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="login" />
       </map>
     </option>
   </component>
@@ -945,7 +930,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="9094263132744" />
+        <entry key="$PROJECT_DIR$" value="9095046911372" />
         <entry key="$PROJECT_DIR$/backend/build.gradle" value="2009287670" />
         <entry key="$PROJECT_DIR$/build.gradle" value="3684952429" />
         <entry key="$PROJECT_DIR$/frontend/build.gradle" value="3419797910" />
@@ -1291,7 +1276,6 @@
         <option value="$PROJECT_DIR$/frontend/src/main/kotlin/react/router/dom/wrapper.kt" />
         <option value="$PROJECT_DIR$/frontend/src/main/kotlin/com/jamdan2/kotlinWebapp/main.kt" />
         <option value="$PROJECT_DIR$/frontend/src/main/kotlin/com/jamdan2/kotlinWebapp/Application.kt" />
-        <option value="$PROJECT_DIR$/frontend/src/main/kotlin/com/jamdan2/robohub/main.kt" />
         <option value="$PROJECT_DIR$/frontend/src/main/kotlin/com/jamdan2/robohub/Application.kt" />
         <option value="$PROJECT_DIR$/frontend/src/main/resources/colors.scss" />
         <option value="$PROJECT_DIR$/frontend/src/main/resources/tools.scss" />
@@ -1299,12 +1283,13 @@
         <option value="$PROJECT_DIR$/frontend/src/main/kotlin/com/jamdan2/robohub/components/navigation/NavigationBar.kt" />
         <option value="$PROJECT_DIR$/frontend/src/main/kotlin/react/utils.kt" />
         <option value="$PROJECT_DIR$/frontend/src/main/resources/navigation.scss" />
-        <option value="$PROJECT_DIR$/frontend/src/main/resources/styles.scss" />
         <option value="$PROJECT_DIR$/frontend/src/main/resources/pageHeaders.scss" />
         <option value="$PROJECT_DIR$/frontend/src/main/kotlin/com/jamdan2/robohub/components/navigation/NavigationButton.kt" />
         <option value="$PROJECT_DIR$/frontend/src/main/kotlin/com/jamdan2/robohub/pages/WelcomePage.kt" />
         <option value="$PROJECT_DIR$/frontend/src/main/kotlin/com/jamdan2/robohub/components/WelcomePageHeader.kt" />
         <option value="$PROJECT_DIR$/frontend/src/main/kotlin/com/jamdan2/robohub/components/pageHeaders/WelcomePageHeader.kt" />
+        <option value="$PROJECT_DIR$/frontend/src/main/resources/styles.scss" />
+        <option value="$PROJECT_DIR$/frontend/src/main/kotlin/com/jamdan2/robohub/main.kt" />
       </list>
     </option>
   </component>
@@ -1336,14 +1321,71 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="kotlin-webapp" type="b2602c69:ProjectViewProjectNode" />
               <item name="RoboHub" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="kotlin-webapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RoboHub" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="backend" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="kotlin-webapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RoboHub" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="backend" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kotlin-webapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RoboHub" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="backend" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="kotlin-webapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RoboHub" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="backend" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kotlin-webapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RoboHub" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="backend" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kotlin-webapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RoboHub" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="backend" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="jamdan2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kotlin-webapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RoboHub" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="backend" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="jamdan2" type="462c0819:PsiDirectoryNode" />
+              <item name="robohub" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="kotlin-webapp" type="b2602c69:ProjectViewProjectNode" />
@@ -1420,28 +1462,10 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="react" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kotlin-webapp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RoboHub" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="frontend" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="react" type="462c0819:PsiDirectoryNode" />
-              <item name="router" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kotlin-webapp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RoboHub" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="frontend" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="react" type="462c0819:PsiDirectoryNode" />
-              <item name="router" type="462c0819:PsiDirectoryNode" />
-              <item name="dom" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="jamdan2" type="462c0819:PsiDirectoryNode" />
+              <item name="robohub" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="kotlin-webapp" type="b2602c69:ProjectViewProjectNode" />
@@ -1451,17 +1475,27 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="kotlin-webapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RoboHub" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="gradle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kotlin-webapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RoboHub" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="gradle" type="462c0819:PsiDirectoryNode" />
+              <item name="wrapper" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Alluminati" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../my-app" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="C:/Program Files/nodejs/node" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -1493,7 +1527,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.kotlin-webapp:backend [run]">
+  <component name="RunManager" selected="Gradle.kotlin-webapp:frontend [run]">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -1637,6 +1671,7 @@
       <workItem from="1516322707956" duration="3579000" />
       <workItem from="1516326340774" duration="133000" />
       <workItem from="1516326715004" duration="2146000" />
+      <workItem from="1516575744378" duration="1037000" />
     </task>
     <task id="LOCAL-00001" summary="Delete unused imports">
       <created>1515287064580</created>
@@ -1733,7 +1768,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69751000" />
+    <option name="totallyTimeSpent" value="71830000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1746,6 +1781,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-16" y="-16" width="3872" height="2192" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295699" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1759,7 +1795,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6134409" sideWeight="0.49248928" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23390558" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23739271" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10810086" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1934,13 +1970,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/src/main/kotlin/com/jamdan2/robohub/main.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="468">
@@ -1953,13 +1982,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/main/kotlin/com/jamdan2/robohub/main.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -2097,13 +2119,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/main/resources/styles.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="741">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/src/main/resources/pageHeaders.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="78">
@@ -2115,9 +2130,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="507">
           <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <marker date="1516328878340" expanded="true" signature="42:100" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2125,7 +2137,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="975">
           <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2133,7 +2144,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2141,9 +2151,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="780">
           <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding>
-            <element signature="e#52#107#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/main/resources/styles.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="8" column="6" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/main/kotlin/com/jamdan2/robohub/main.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/main/kotlin/com/jamdan2/robohub/main.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
