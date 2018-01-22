@@ -1,0 +1,19 @@
+@import "colors";
+
+.form {
+  width: 40%;
+  padding: 5mm;
+  background-color: whitesmoke;
+
+  .container {
+    .content {
+      padding: 3mm 0;
+
+      input {
+        box-sizing: border-box;
+        width: 100%;
+        display: inline-block;
+      }
+    }
+  }
+}

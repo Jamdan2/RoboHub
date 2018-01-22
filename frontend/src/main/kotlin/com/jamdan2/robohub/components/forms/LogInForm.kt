@@ -6,21 +6,29 @@ import react.dom.*
 
 class LogInForm : RComponent<RProps, RState>() {
     override fun RBuilder.render() {
-        div("LogInForm") {
+        div("LogInForm form") {
             div("container") {
-                h2 {
-                    +"Log In"
-                }
-                label {
-                    +"Username"
-                }
-                input(InputType.text) {}
-                label {
-                    +"Password"
-                }
-                input(InputType.password) {}
-                button {
-                    +"Submit"
+                form {
+                    h2 {
+                        +"Log In"
+                    }
+                    div("content") {
+                        label {
+                            +"Username"
+                        }
+                        input(InputType.text) {}
+                    }
+                    div("content") {
+                        label {
+                            +"Password"
+                        }
+                        input(InputType.password) {}
+                    }
+                    div("content") {
+                        button {
+                            +"Submit"
+                        }
+                    }
                 }
             }
         }

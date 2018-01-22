@@ -54,12 +54,14 @@ h6 {
   font-size: 5.75mm;
 }
 
+label {
+  @extend text;
+}
+
 input {
   @extend text;
   border: 1px solid $darker_grey;
-  height: 7mm;
-  font-size: 4.75mm;
-  border-radius: 1px;
+  padding: 3mm;
 }
 
 button {
