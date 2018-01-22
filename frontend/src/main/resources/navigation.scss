@@ -11,9 +11,13 @@
     height: 100%;
     float: right;
 
-    .NavigationButton {
+    button {
       margin: 0 3mm;
       @include vertical-align();
+    }
+
+    .NavigationButton {
+      @extend button
     }
   }
 }

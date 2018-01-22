@@ -1,10 +1,12 @@
 package com.jamdan2.robohub.components.forms
 
 import kotlinx.html.*
+import kotlinx.html.js.*
+import org.w3c.dom.events.Event
 import react.*
 import react.dom.*
 
-class LogInForm : RComponent<RProps, RState>() {
+class LogInForm : RComponent<LogInFormProps, RState>() {
     override fun RBuilder.render() {
         div("LogInForm form") {
             div("container") {
@@ -28,6 +30,10 @@ class LogInForm : RComponent<RProps, RState>() {
                         button {
                             +"Submit"
                         }
+                        button {
+                            attrs.onClickFunction = props.onCancelButtonClick
+                            +"Cancel"
+                        }
                     }
                 }
             }
@@ -35,4 +41,11 @@ class LogInForm : RComponent<RProps, RState>() {
     }
 }
 
-fun RBuilder.loginForm() = child(LogInForm::class) {}
+interface LogInFormProps : RProps {
+    var onCancelButtonClick: (Event) -> Unit
+}
+
+fun RBuilder.loginForm(onCancelButtonClick: (Event) -> Unit) = child(LogInForm::class) {
+    attrs.onCancelButtonClick = onCancelButtonClick
+
+}

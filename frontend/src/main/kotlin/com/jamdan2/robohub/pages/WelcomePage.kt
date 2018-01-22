@@ -1,17 +1,38 @@
 package com.jamdan2.robohub.pages
 
 import com.jamdan2.robohub.components.forms.loginForm
+import com.jamdan2.robohub.components.forms.modal
 import react.*
 import com.jamdan2.robohub.components.navigation.*
 import com.jamdan2.robohub.components.pageHeaders.welcomePageHeader
+import kotlinx.html.js.onClickFunction
+import react.dom.*
 
-class WelcomePage : RComponent<RProps, RState>() {
+class WelcomePage : RComponent<RProps, WelcomePageState>() {
     override fun RBuilder.render() {
+        modal(state.logInFormIsOpen) {
+            loginForm {
+                it.preventDefault()
+                setState {
+                    logInFormIsOpen = false
+                }
+            }
+        }
         navigationBar {
-            navigationButton("/", "Sign Up")
-            navigationButton("/", "Log In")
+            button {
+                attrs.onClickFunction = {
+                    setState {
+                        it.preventDefault()
+                        logInFormIsOpen = true
+                    }
+                }
+                +"Log In"
+            }
         }
         welcomePageHeader("RoboHub", "Share your FRC robot with other teams")
-        loginForm()
     }
+}
+
+interface WelcomePageState : RState {
+    var logInFormIsOpen: Boolean
 }
