@@ -3,6 +3,8 @@
 
 .form {
   width: 40%;
+  max-width: 10cm;
+  min-width: 75mm;
   padding: 5mm;
   background-color: whitesmoke;
 
@@ -15,6 +17,18 @@
         width: 100%;
         display: inline-block;
       }
+
+      button {
+        margin-right: 3mm;
+      }
+    }
+
+    .header {
+      padding-bottom: 3mm;
+    }
+
+    .footer {
+      padding-top: 3mm;
     }
   }
 }

@@ -64,6 +64,11 @@ input {
   padding: 3mm;
 }
 
+a {
+  @extend text;
+  color: #553388;
+}
+
 button {
   @extend text;
   background-color: $lightest_grey;
@@ -73,4 +78,24 @@ button {
 
 button:hover {
   background-color: $lighter_grey;
+}
+
+.b-purple {
+  @extend button;
+  background-color: rebeccapurple;
+  color: white;
+}
+
+.b-purple:hover {
+  background-color: #553388;
+}
+
+.b-red {
+  @extend button;
+  background-color: #e60000;
+  color: white;
+}
+
+.b-red:hover {
+  background-color: #a60000;
 }

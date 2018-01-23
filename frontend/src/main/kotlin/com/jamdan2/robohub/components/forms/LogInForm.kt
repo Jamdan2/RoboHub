@@ -5,14 +5,17 @@ import kotlinx.html.js.*
 import org.w3c.dom.events.Event
 import react.*
 import react.dom.*
+import react.router.dom.*
 
 class LogInForm : RComponent<LogInFormProps, RState>() {
     override fun RBuilder.render() {
         div("LogInForm form") {
             div("container") {
                 form {
-                    h2 {
-                        +"Log In"
+                    div("header") {
+                        h2 {
+                            +"Log In"
+                        }
                     }
                     div("content") {
                         label {
@@ -27,10 +30,15 @@ class LogInForm : RComponent<LogInFormProps, RState>() {
                         input(InputType.password) {}
                     }
                     div("content") {
-                        button {
+                        button(classes = "b-purple") {
                             +"Submit"
                         }
-                        button {
+                        routeLink("/") {
+                            +"Make an account"
+                        }
+                    }
+                    div("footer") {
+                        button(classes = "b-red") {
                             attrs.onClickFunction = props.onCancelButtonClick
                             +"Cancel"
                         }
@@ -47,5 +55,4 @@ interface LogInFormProps : RProps {
 
 fun RBuilder.loginForm(onCancelButtonClick: (Event) -> Unit) = child(LogInForm::class) {
     attrs.onCancelButtonClick = onCancelButtonClick
-
 }
