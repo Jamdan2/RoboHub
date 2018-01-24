@@ -46,10 +46,10 @@ kotlinFrontend {
 
 sass {
     main {
-        srcDir = file("$projectDir.path/src/main/resources")
+        srcDir = file("$projectDir.path/src/main/sass")
         outDir = file("$buildDir.path/js/min")
+        exclude = "utils/*.scss"
     }
 }
 
-processResources.dependsOn(mainSass)
-run.dependsOn(processResources)
+run.dependsOn(mainSass)

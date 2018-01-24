@@ -1,4 +1,4 @@
-@import "utils";
+@import "../utils/mixins";
 
 .WelcomePageHeader {
   width: 100%;
@@ -20,6 +20,4 @@
       font-size: 1cm;
     }
   }
-
-  
 }
