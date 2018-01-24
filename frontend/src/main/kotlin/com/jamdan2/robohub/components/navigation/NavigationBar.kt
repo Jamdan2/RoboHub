@@ -1,7 +1,7 @@
 package com.jamdan2.robohub.components.navigation
 
 import react.*
-import react.dom.*
+import react.dom.div
 
 class NavigationBar : RComponent<RProps, RState>() {
     override fun RBuilder.render() {

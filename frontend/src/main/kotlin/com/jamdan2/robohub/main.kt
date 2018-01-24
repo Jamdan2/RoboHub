@@ -1,9 +1,11 @@
 package com.jamdan2.robohub
 
-import kotlin.browser.*
-import kotlinext.js.*
-import react.dom.*
-import react.router.dom.*
+import kotlinext.js.require
+import kotlinext.js.requireAll
+import react.dom.render
+import react.router.dom.browserRouter
+import kotlin.browser.document
+import kotlin.browser.window
 
 fun main(args: Array<String>) {
     requireAll(require.context("/", true, js("/\\.css$/")))

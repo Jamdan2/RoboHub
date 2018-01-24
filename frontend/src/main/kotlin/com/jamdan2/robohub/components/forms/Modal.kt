@@ -1,7 +1,8 @@
 package com.jamdan2.robohub.components.forms
 
 import react.*
-import react.dom.*
+import react.dom.div
+import react.dom.jsStyle
 
 class Modal : RComponent<ModalProps, RState>() {
     override fun RBuilder.render() {

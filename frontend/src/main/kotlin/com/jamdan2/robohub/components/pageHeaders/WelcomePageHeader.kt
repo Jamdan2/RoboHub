@@ -1,8 +1,13 @@
 package com.jamdan2.robohub.components.pageHeaders
 
-import kotlinx.html.*
-import react.*
-import react.dom.*
+import kotlinx.html.classes
+import react.RBuilder
+import react.RComponent
+import react.RProps
+import react.RState
+import react.dom.div
+import react.dom.h1
+import react.dom.img
 
 class WelcomePageHeader : RComponent<WelcomePageHeaderProps, RState>() {
     override fun RBuilder.render() {

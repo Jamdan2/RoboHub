@@ -1,11 +1,14 @@
 package com.jamdan2.robohub.components.forms
 
-import kotlinx.html.*
-import kotlinx.html.js.*
+import kotlinx.html.InputType
+import kotlinx.html.js.onClickFunction
 import org.w3c.dom.events.Event
-import react.*
+import react.RBuilder
+import react.RComponent
+import react.RProps
+import react.RState
 import react.dom.*
-import react.router.dom.*
+import react.router.dom.routeLink
 
 class LogInForm : RComponent<LogInFormProps, RState>() {
     override fun RBuilder.render() {

@@ -1,8 +1,12 @@
 package com.jamdan2.robohub.components.navigation
 
-import react.*
-import react.dom.*
-import react.router.dom.*
+import react.RBuilder
+import react.RComponent
+import react.RProps
+import react.RState
+import react.dom.button
+import react.dom.div
+import react.router.dom.routeLink
 
 class NavigationButton : RComponent<NavigationButtonProps, RState>() {
     override fun RBuilder.render() {

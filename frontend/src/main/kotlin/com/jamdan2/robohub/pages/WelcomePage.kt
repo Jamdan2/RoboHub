@@ -2,11 +2,11 @@ package com.jamdan2.robohub.pages
 
 import com.jamdan2.robohub.components.forms.loginForm
 import com.jamdan2.robohub.components.forms.modal
-import react.*
-import com.jamdan2.robohub.components.navigation.*
+import com.jamdan2.robohub.components.navigation.navigationBar
 import com.jamdan2.robohub.components.pageHeaders.welcomePageHeader
 import kotlinx.html.js.onClickFunction
-import react.dom.*
+import react.*
+import react.dom.button
 
 class WelcomePage : RComponent<RProps, WelcomePageState>() {
     override fun RBuilder.render() {
