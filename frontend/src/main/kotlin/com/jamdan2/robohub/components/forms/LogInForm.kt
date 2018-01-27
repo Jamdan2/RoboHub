@@ -56,6 +56,6 @@ interface LogInFormProps : RProps {
     var onCancelButtonClick: (Event) -> Unit
 }
 
-fun RBuilder.loginForm(onCancelButtonClick: (Event) -> Unit) = child(LogInForm::class) {
+fun RBuilder.logInForm(onCancelButtonClick: (Event) -> Unit) = child(LogInForm::class) {
     attrs.onCancelButtonClick = onCancelButtonClick
 }

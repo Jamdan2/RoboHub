@@ -8,8 +8,10 @@
   background-color: whitesmoke;
 
   .container {
+    overflow: auto;
     .content {
       padding: 3mm 0;
+      overflow: auto;
 
       input {
         box-sizing: border-box;
@@ -19,6 +21,28 @@
 
       button {
         margin-right: 3mm;
+      }
+    }
+
+    .left {
+      @extend .content;
+      padding: 0;
+      width: calc(50% - 2.5mm);
+      float: left;
+      input {
+        width: 100%;
+        box-sizing: border-box;
+      }
+    }
+
+    .right {
+      @extend .content;
+      padding: 0;
+      width: calc(50% - 2.5mm);
+      float: right;
+      input {
+        width: 100%;
+        box-sizing: border-box;
       }
     }
 
