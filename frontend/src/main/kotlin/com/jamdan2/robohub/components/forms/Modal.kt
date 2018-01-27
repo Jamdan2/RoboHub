@@ -8,8 +8,10 @@ class Modal : RComponent<ModalProps, RState>() {
     override fun RBuilder.render() {
         div("Modal") {
             attrs.jsStyle.display = if (props.isOpen) "inline-block" else "none"
-            div("animate") {
-                children()
+            div("box") {
+                div("animate") {
+                    children()
+                }
             }
         }
     }
