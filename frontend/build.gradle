@@ -1,6 +1,5 @@
 apply plugin: 'kotlin2js'
 apply plugin: 'org.jetbrains.kotlin.frontend'
-apply plugin: 'kotlin-dce-js'
 apply plugin: "org.kravemir.gradle.sass"
 
 repositories {

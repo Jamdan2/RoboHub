@@ -3,6 +3,7 @@
   <component name="FacetManager">
     <facet type="kotlin-language" name="Kotlin">
       <configuration version="3" platform="JavaScript " useProjectSettings="false">
+        <testOutputPath>$MODULE_DIR$/../../../frontend/build/classes/kotlin/test/frontend_test.js</testOutputPath>
         <compilerSettings />
         <compilerArguments>
           <option name="outputFile" value="$MODULE_DIR$/../../../frontend/build/js/frontend.js" />
@@ -31,7 +32,6 @@
     <content url="file://$MODULE_DIR$/../../../frontend/src/main">
       <sourceFolder url="file://$MODULE_DIR$/../../../frontend/src/main/kotlin" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../../frontend/src/main/resources" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../frontend/src/main/sass" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
