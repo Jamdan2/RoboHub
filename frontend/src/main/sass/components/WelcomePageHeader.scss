@@ -5,19 +5,10 @@
   height: calc(100vh - #{20mm});
   background: linear-gradient(rebeccapurple, cornflowerblue);
 
-  .container {
+  .wph-container {
+    width: fit-content;
+    height: fit-content;
     @include vertical-align();
-    text-align: center;
-
-    .text {
-      color: white;
-      font-size: 3cm;
-      font-weight: 100;
-    }
-
-    .subtext {
-      color: whitesmoke;
-      font-size: 1cm;
-    }
+    margin: auto;
   }
 }
