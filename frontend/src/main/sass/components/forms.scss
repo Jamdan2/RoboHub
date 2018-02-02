@@ -10,10 +10,21 @@
     .form-content {
       width: 100%;
       padding: 3mm 0;
+      overflow: auto;
 
       input {
         width: 100%;
         box-sizing: border-box;
+      }
+
+      .left {
+        width: calc(50% - 2.5mm);
+        float: left;
+      }
+
+      .right {
+        width: calc(50% - 2.5mm);
+        float: right;
       }
     }
   }

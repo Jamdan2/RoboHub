@@ -2,6 +2,7 @@ package com.jamdan2.robohub.pages
 
 import com.jamdan2.robohub.components.forms.loginForm
 import com.jamdan2.robohub.components.forms.modal
+import com.jamdan2.robohub.components.forms.signUpForm
 import com.jamdan2.robohub.components.navigation.navigationBar
 import com.jamdan2.robohub.components.pageHeaders.welcomePageHeader
 import kotlinx.html.js.onClickFunction
@@ -26,12 +27,30 @@ class WelcomePage : RComponent<RProps, WelcomePageState>() {
         }
     }
 
+    @Suppress("UNUSED_PARAMETER")
+    private fun openSignUpForm(e: Event) {
+        setState {
+            signUpFormIsOpen = true
+        }
+    }
+
+    @Suppress("UNUSED_PARAMETER")
+    private fun closeSignUpForm(e: Event) {
+        setState {
+            signUpFormIsOpen = false
+        }
+    }
+
     override fun RBuilder.render() {
         modal(state.loginFormIsOpen) {
             loginForm(::closeLoginForm)
         }
+        modal(state.signUpFormIsOpen) {
+            signUpForm(::closeSignUpForm)
+        }
         navigationBar {
             button {
+                attrs.onClickFunction = ::openSignUpForm
                 +"Sign Up"
             }
             button {
@@ -52,4 +71,5 @@ class WelcomePage : RComponent<RProps, WelcomePageState>() {
 
 interface WelcomePageState : RState {
     var loginFormIsOpen: Boolean
+    var signUpFormIsOpen: Boolean
 }
