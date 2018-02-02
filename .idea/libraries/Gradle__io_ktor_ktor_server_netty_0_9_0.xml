@@ -1,7 +1,6 @@
 <component name="libraryTable">
   <library name="Gradle: io.ktor:ktor-server-netty:0.9.0">
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/Could not find io.ktor:ktor-server-netty:0.9.0." />
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-server-netty/0.9.0/31a6ed22d7e1a16ece7be8f731ffd0ab554d1336/ktor-server-netty-0.9.0.jar!/" />
     </CLASSES>
     <JAVADOC />

@@ -8,7 +8,6 @@
         <compilerArguments>
           <option name="outputFile" value="$MODULE_DIR$/../../../frontend/build/classes/kotlin/test/frontend_test.js" />
           <option name="noStdlib" value="true" />
-          <option name="sourceMapEmbedSources" value="inlining" />
           <option name="metaInfo" value="true" />
           <option name="target" value="v5" />
           <option name="main" value="call" />
@@ -34,11 +33,11 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="frontend_main" />
-    <orderEntry type="library" name="Gradle: org.jetbrains:kotlin-react-dom:16.2.0-pre.17-kotlin-1.2.0" level="project" />
-    <orderEntry type="library" name="Gradle: org.jetbrains:kotlin-react:16.2.0-pre.17-kotlin-1.2.0" level="project" />
-    <orderEntry type="library" name="Gradle: org.jetbrains:kotlin-extensions:1.0.0-pre.17-kotlin-1.2.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains:kotlin-react-dom:16.2.0-pre.19-kotlin-1.2.20" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains:kotlin-react:16.2.0-pre.19-kotlin-1.2.20" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains:kotlin-extensions:1.0.0-pre.19-kotlin-1.2.20" level="project" />
     <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-html-js:0.6.8" level="project" />
-    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-js:1.2.10" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-js:1.2.21" level="project" />
     <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-html-common:0.6.8" level="project" />
     <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.1.60" level="project" />
   </component>
