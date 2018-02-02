@@ -1,0 +1,27 @@
+.form {
+  background-color: whitesmoke;
+  width: 40%;
+  min-width: 6cm;
+  max-width: 12cm;
+
+  .form-container {
+    padding: 5mm;
+
+    .form-content {
+      width: 100%;
+      padding: 3mm 0;
+
+      input {
+        width: 100%;
+        box-sizing: border-box;
+      }
+    }
+  }
+
+  .close-button {
+    background-color: whitesmoke;
+    float: right;
+    width: 10mm;
+    height: 10mm;
+  }
+}

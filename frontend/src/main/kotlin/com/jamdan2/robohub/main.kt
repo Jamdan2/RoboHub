@@ -1,5 +1,6 @@
 package com.jamdan2.robohub
 
+import com.jamdan2.robohub.components.forms.loginForm
 import kotlinext.js.require
 import kotlinext.js.requireAll
 import react.dom.render
@@ -12,7 +13,8 @@ fun main(args: Array<String>) {
     window.onload = {
         render(document.getElementById("root")!!) {
            browserRouter {
-                application()
+//                application()
+               loginForm()
            }
         }
         println("Hello, world!")
