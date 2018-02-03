@@ -12,29 +12,26 @@ import react.dom.button
 import react.dom.h1
 import react.dom.h2
 
+@Suppress("UNUSED_PARAMETER")
 class WelcomePage : RComponent<RProps, WelcomePageState>() {
-    @Suppress("UNUSED_PARAMETER")
     private fun openLoginForm(e: Event) {
         setState {
             loginFormIsOpen = true
         }
     }
 
-    @Suppress("UNUSED_PARAMETER")
     private fun closeLoginForm(e: Event) {
         setState {
             loginFormIsOpen = false
         }
     }
 
-    @Suppress("UNUSED_PARAMETER")
     private fun openSignUpForm(e: Event) {
         setState {
             signUpFormIsOpen = true
         }
     }
 
-    @Suppress("UNUSED_PARAMETER")
     private fun closeSignUpForm(e: Event) {
         setState {
             signUpFormIsOpen = false
