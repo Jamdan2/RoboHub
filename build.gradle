@@ -1,4 +1,4 @@
-group 'com.jamdan2.kotlin-webapp'
+group 'com.jamdan2.robothub'
 version '1.0-SNAPSHOT'
 
 buildscript {

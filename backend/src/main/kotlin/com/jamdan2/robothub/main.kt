@@ -1,4 +1,4 @@
-package com.jamdan2.robohub
+package com.jamdan2.robothub
 
 import com.google.firebase.FirebaseApp
 import io.ktor.application.*
