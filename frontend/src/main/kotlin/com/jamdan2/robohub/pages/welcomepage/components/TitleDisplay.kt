@@ -5,7 +5,7 @@ import react.dom.div
 
 class TitleDisplay : RComponent<RProps, RState>() {
     override fun RBuilder.render() {
-        div("TitleDisplay") {
+        div("WelcomePageHeader") {
             div("wph-container") {
                 children()
             }

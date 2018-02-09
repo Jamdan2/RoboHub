@@ -57,7 +57,7 @@ class WelcomePage : RComponent<RProps, WelcomePageState>() {
         }
         titleDisplay {
             h1("title") {
-                +"RoboHub"
+                +"RobotHub"
             }
             h2("subtitle") {
                 +"Share your FRC robot with other teams."
