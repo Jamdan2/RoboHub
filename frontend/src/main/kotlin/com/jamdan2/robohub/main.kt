@@ -2,6 +2,7 @@ package com.jamdan2.robohub
 
 import kotlinext.js.require
 import kotlinext.js.requireAll
+import react.RBuilder
 import react.dom.render
 import react.router.dom.browserRouter
 import kotlin.browser.document
