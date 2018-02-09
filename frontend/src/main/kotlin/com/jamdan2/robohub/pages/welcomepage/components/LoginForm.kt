@@ -1,4 +1,4 @@
-package com.jamdan2.robohub.components.forms
+package com.jamdan2.robohub.pages.welcomepage.components
 
 import kotlinx.html.ButtonType
 import kotlinx.html.InputType

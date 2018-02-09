@@ -1,4 +1,4 @@
-package com.jamdan2.robohub.components.forms
+package com.jamdan2.robohub.utils.components
 
 import kotlinext.js.js
 import react.*

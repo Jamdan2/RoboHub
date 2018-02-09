@@ -1,6 +1,6 @@
 package com.jamdan2.robohub
 
-import com.jamdan2.robohub.pages.WelcomePage
+import com.jamdan2.robohub.pages.welcomepage.WelcomePage
 import react.RBuilder
 import react.RComponent
 import react.RProps

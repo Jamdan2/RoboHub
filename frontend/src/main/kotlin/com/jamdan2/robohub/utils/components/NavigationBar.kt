@@ -1,4 +1,4 @@
-package com.jamdan2.robohub.components.navigation
+package com.jamdan2.robohub.utils.components
 
 import react.*
 import react.dom.div
