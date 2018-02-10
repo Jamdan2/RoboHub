@@ -1,5 +1,6 @@
 package com.jamdan2.robohub
 
+import com.jamdan2.robohub.data.LoginFormCredentials
 import kotlinext.js.require
 import kotlinext.js.requireAll
 import react.RBuilder
@@ -16,6 +17,5 @@ fun main(args: Array<String>) {
                application()
            }
         }
-        println("Hello, world!")
     }
 }
