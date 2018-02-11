@@ -1,7 +1,7 @@
 package com.jamdan2.robohub.pages.welcomepage.components
 
-import com.jamdan2.robohub.data.LoginFormCredentials
-import kotlinx.html.*
+import kotlinx.html.ButtonType
+import kotlinx.html.InputType
 import kotlinx.html.js.onChangeFunction
 import kotlinx.html.js.onClickFunction
 import kotlinx.html.js.onSubmitFunction
@@ -11,6 +11,7 @@ import org.w3c.xhr.XMLHttpRequest
 import react.*
 import react.dom.*
 import kotlin.browser.window
+import kotlin.js.json
 
 class LoginForm : RComponent<LoginFormProps, LoginFormState>() {
     override fun RBuilder.render() {
@@ -25,7 +26,10 @@ class LoginForm : RComponent<LoginFormProps, LoginFormState>() {
                         it.preventDefault()
                         XMLHttpRequest().apply {
                             open("POST", "${window.location.href}/login")
-                            send(LoginFormCredentials(state.username, state.password))
+                            send(JSON.stringify(json(
+                                    "username" to state.username,
+                                    "password" to state.password
+                            )))
                         }
                     }
                     div("form-content") {
