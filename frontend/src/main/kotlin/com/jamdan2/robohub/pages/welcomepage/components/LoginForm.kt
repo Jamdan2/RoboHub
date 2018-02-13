@@ -13,6 +13,8 @@ import react.dom.*
 import kotlin.browser.window
 import kotlin.js.json
 
+data class Credentials(val username: String, val password: String)
+
 class LoginForm : RComponent<LoginFormProps, LoginFormState>() {
     override fun RBuilder.render() {
         div("LoginForm form") {
@@ -26,6 +28,7 @@ class LoginForm : RComponent<LoginFormProps, LoginFormState>() {
                         it.preventDefault()
                         XMLHttpRequest().apply {
                             open("POST", "${window.location.href}/login")
+                            setRequestHeader("Content-Type", "application/json")
                             send(JSON.stringify(json(
                                     "username" to state.username,
                                     "password" to state.password
