@@ -1,5 +1,6 @@
 .idea
 .gradle
+.idea
 build
 backend/service-account.json
 
