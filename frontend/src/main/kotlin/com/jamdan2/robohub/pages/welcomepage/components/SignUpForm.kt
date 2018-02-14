@@ -21,16 +21,15 @@ class SignUpForm : RComponent<SignUpFormProps, RState>() {
         e.preventDefault()
         val data = FormData(e.target as HTMLFormElement)
         XMLHttpRequest().apply {
-            open("POST", "${window.location.href}/signup")
+            open("POST", "${window.location.href}/sign-up")
             setRequestHeader("Content-Type", "application/json")
             onload = { println(response) }
             send(JSON.stringify(json(
-                    "first-name" to data.get("first-name"),
-                    "last-name" to data.get("last-name"),
+                    "firstName" to data.get("firstName"),
+                    "lastName" to data.get("lastName"),
                     "username" to data.get("username"),
                     "email" to data.get("email"),
-                    "password" to data.get("password"),
-                    "retype-password" to data.get("retype-password")
+                    "password" to data.get("password")
             )))
         }
     }
@@ -50,11 +49,11 @@ class SignUpForm : RComponent<SignUpFormProps, RState>() {
                     div("form-content") {
                         div("left") {
                             label { +"First Name" }
-                            input(type = InputType.text, name = "first-name") {}
+                            input(type = InputType.text, name = "firstName") {}
                         }
                         div("right") {
                             label { +"Last Name" }
-                            input(type = InputType.text, name = "last-name") {}
+                            input(type = InputType.text, name = "lastName") {}
                         }
                     }
                     div("form-content") {
