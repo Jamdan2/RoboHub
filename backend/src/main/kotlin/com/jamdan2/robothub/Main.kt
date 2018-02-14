@@ -1,6 +1,7 @@
 package com.jamdan2.robothub
 
 import com.jamdan2.robothub.routing.login
+import com.jamdan2.robothub.routing.signUp
 import com.jamdan2.robothub.routing.template
 import io.ktor.application.Application
 import io.ktor.application.install
@@ -21,5 +22,6 @@ fun Application.main() {
     routing {
         template()
         login()
+        signUp()
     }
 }
