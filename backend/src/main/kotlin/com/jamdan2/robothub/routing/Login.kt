@@ -13,7 +13,7 @@ fun Route.login() {
     post("/login") {
         val credentials = call.receive<Credentials>()
         if (Database.login(credentials)) {
-            call.respond(HttpStatusCode.Continue, "Login successful")
+            call.respond(HttpStatusCode.Accepted, "Login successful")
         } else {
             call.respond(HttpStatusCode.BadRequest, "Incorrect username or password")
         }
