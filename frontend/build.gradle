@@ -27,6 +27,7 @@ kotlinFrontend {
         dependency('react')
         dependency('react-dom')
         dependency('react-router-dom')
+        dependency('redux')
 
         devDependency("css-loader")
         devDependency("style-loader")
